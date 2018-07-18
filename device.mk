@@ -306,6 +306,7 @@ PRODUCT_PACKAGES += \
     FrameworksResXiaomi \
     FrameworksResHouji \
     LineageSettingsOverlayHouji \
+    LineageDialerOverlayHouji \
     HoujiEuiccOverlay \
     SettingsOverlayHouji \
     SystemUIResHouji \
