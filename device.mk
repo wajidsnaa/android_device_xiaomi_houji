@@ -309,6 +309,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayHouji \
     SystemUIResHouji \
     SettingsResXiaomi \
+    NcmTetheringOverlay \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget \
