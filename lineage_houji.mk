@@ -14,6 +14,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from houji device.
 $(call inherit-product, device/xiaomi/houji/device.mk)
 
+## Lunaris flags
+
+# Enable optimized dexopt tuning
+TARGET_OPTIMIZED_DEXOPT := true
+
+# GMS CORE
+TARGET_USES_CORE_GAPPS := true
+
+# Ship BCR
+WITH_BCR := true
+
 ## Device identifier
 PRODUCT_DEVICE := houji
 PRODUCT_NAME := lineage_houji

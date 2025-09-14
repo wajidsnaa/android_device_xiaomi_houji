@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--
+      https://github.com/Rayyan-x95
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- About device screen, build maintainer -->
+     <string name="lunaris_device_message">Xiaomi 14</string>
+     <string name="lunaris_processor_code_message">Snapdragon® 8 Gen 3</string>
+     <string name="lunaris_battery_type_message">4610 mAh</string>
+     <string name="lunaris_screen_message">1200 x 2670, 120 Hz</string>
+ </resources>

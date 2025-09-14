@@ -27,3 +27,6 @@ vendor.voice.path.for.pcm.voip=true
 # RKPD
 remote_provisioning.enable_rkpd=true
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# Lunaris Maintainer
+ro.paranoid.maintainer=Wajid-Khan
