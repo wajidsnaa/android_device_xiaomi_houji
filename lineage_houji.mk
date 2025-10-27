@@ -16,6 +16,31 @@ $(call inherit-product, device/xiaomi/houji/device.mk)
 
 ## Lunaris flags
 
+# ---------------------------
+# Core Groups
+# ---------------------------
+LUNARIS_CPU_SMALL_CORES := 0,1,2,3
+LUNARIS_CPU_BIG_CORES   := 4,5,6
+LUNARIS_CPU_PRIME_CORE  := 7
+LUNARIS_ALL_CORES       := 0-7
+
+# ---------------------------
+# Background Tasks
+# ---------------------------
+LUNARIS_CPU_BG          := 0-1
+LUNARIS_CPU_LIMIT_BG    := 0-1
+
+# ---------------------------
+# Foreground / UI Tasks
+# ---------------------------
+LUNARIS_CPU_FG          := 0-3,5
+LUNARIS_CPU_LIMIT_UI    := 0-3
+
+# ---------------------------
+# Display / Animation
+# ---------------------------
+LUNARIS_CPU_DISPLAY     := 0-3,4
+
 # Enable optimized dexopt tuning
 TARGET_OPTIMIZED_DEXOPT := true
 
