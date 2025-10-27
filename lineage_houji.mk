@@ -50,6 +50,9 @@ TARGET_USES_CORE_GAPPS := true
 # Ship BCR
 WITH_BCR := true
 
+# UDFPS
+TARGET_CUSTOM_UDFPS := true
+
 ## Device identifier
 PRODUCT_DEVICE := houji
 PRODUCT_NAME := lineage_houji
