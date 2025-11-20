@@ -14,6 +14,31 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from houji device.
 $(call inherit-product, device/xiaomi/houji/device.mk)
 
+## Matrixx flags
+
+# To include Gapps
+WITH_GMS := true
+
+# To include QuickSwitch
+WITH_QS := true
+
+# To enable Blur
+TARGET_ENABLE_BLUR := true
+
+# To enable QuickTap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# To Build BCR
+TARGET_SUPPORTS_GSUITE := true
+
+# To Build Pixel launcher
+TARGET_INCLUDE_NEXUS := true
+
+# Some more GMS Flag
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
+
 ## Device identifier
 PRODUCT_DEVICE := houji
 PRODUCT_NAME := lineage_houji
