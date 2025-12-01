@@ -72,6 +72,8 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
 # Audio
+$(call soong_config_set, android_hardware_audio, skip_speaker_layout_channel_mask_field, true)
+
 SOONG_CONFIG_NAMESPACES += android_hardware_audio
 SOONG_CONFIG_android_hardware_audio += \
     run_64bit
