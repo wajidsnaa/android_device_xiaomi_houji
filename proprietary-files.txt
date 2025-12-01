@@ -1842,14 +1842,6 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=-vendor
 
-# Display Config
-vendor/etc/displayconfig/display_id_4630946416293825923.xml
-vendor/etc/displayconfig/display_id_4630946545580055171.xml
-vendor/etc/displayconfig/display_id_4630947039571902850.xml
-vendor/etc/displayconfig/display_id_4630947039571902851.xml
-vendor/etc/displayconfig/display_id_4630947082089526659.xml
-vendor/etc/displayconfig/display_id_4630947256895775107.xml
-
 # Displayfeature (configs)
 odm/etc/df_default.xml
 odm/etc/disp0/mdss_dsi_n3_42_0d_0a_dsc_cmd/cct_pcc.txt
